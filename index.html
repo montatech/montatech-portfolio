@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f4f1">
+  <title>Mahdi Montazeri Najafabadi — Portfolio</title>
+  <meta name="description" content="Mahdi Montazeri Najafabadi — aspiring Computer Science and AI undergraduate with hands-on experience in Android, web platforms and robotics software.">
+  <meta property="og:title" content="Mahdi Montazeri Najafabadi — Portfolio">
+  <meta property="og:description" content="Selected projects, technical skills and international awards.">
+  <meta property="og:image" content="assets/portrait.jpg">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient--one" aria-hidden="true"></div>
+  <div class="ambient ambient--two" aria-hidden="true"></div>
+  <div class="ambient ambient--three" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+  <div class="cursor-aura" id="cursorAura" aria-hidden="true"></div>
+
+  <a class="skip" href="#work">Skip to selected work</a>
+
+  <header class="nav" id="nav">
+    <a class="brand" href="#top" aria-label="Back to top"><span class="brand__mark" aria-hidden="true"><svg viewBox="0 0 48 48" role="img"><path d="M10 34V14l14 15 14-15v20" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="38" cy="10" r="3" fill="#c8f36c"/></svg></span><span class="brand__name">MAHDI MONTAZERI</span></a>
+    <nav class="nav__links" aria-label="Main navigation">
+      <a href="#work">Work <sup>01</sup></a>
+      <a href="#skills">What I build <sup>02</sup></a>
+      <a href="#achievements">Achievements <sup>03</sup></a>
+    </nav>
+    <a class="nav__cta magnetic" href="#contact">Let's talk <span class="arrow">↗</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="hero__topline"><span class="availability"><i></i><span id="heroStatus">Aspiring CS / AI Undergraduate</span></span><span class="hero__index">PORTFOLIO — 2026</span></div>
+      <div class="hero__stage" id="heroStage">
+        <div class="hero__orbit hero__orbit--one" aria-hidden="true"></div>
+        <div class="hero__orbit hero__orbit--two" aria-hidden="true"></div>
+        <div class="hero__ring hero__ring--one" aria-hidden="true"></div>
+        <div class="hero__ring hero__ring--two" aria-hidden="true"></div>
+        <div class="hero__name" aria-label="Mahdi Montazeri">
+          <span class="hero__first" id="heroFirst">MAHDI</span>
+          <span class="hero__last" id="heroLast">MONTAZERI</span>
+        </div>
+        <div class="hero__surname" id="heroSurname">NAJAFABADI</div>
+        <div class="hero__portrait-wrap" id="portraitWrap">
+          <div class="portrait-shadow"></div>
+          <img class="hero__photo" id="heroPhoto" src="assets/portrait.jpg" alt="Portrait of Mahdi Montazeri Najafabadi" width="1254" height="1254" fetchpriority="high">
+          <div class="portrait-glass" aria-hidden="true"></div>
+          <span class="portrait-tag">CODE · BUILD · LEARN</span>
+        </div>
+        <div class="hero__side-note hero__side-note--left"><span class="side-line"></span><span>SOFTWARE<br>DEVELOPER</span></div>
+        <div class="hero__side-note hero__side-note--right"><span>CURIOUS BY<br>DEFAULT</span><span class="side-line"></span></div>
+        <div class="hero__scroll"><span class="scroll-line"></span>SCROLL TO EXPLORE</div>
+      </div>
+      <div class="hero__bottom">
+        <div class="hero__intro"><p class="eyebrow">HELLO, I'M MAHDI</p><h1 id="heroRole">Aspiring Computer Science & AI Undergraduate</h1><p id="heroTagline">Practical experience building Android applications, web platforms, and software for robotics and environmental-monitoring projects.</p></div>
+        <div class="hero__links" id="heroSocial" aria-label="Social links"></div>
+        <a class="hero__discover" href="#work"><span>Explore selected work</span><b>↓</b></a>
+      </div>
+    </section>
+
+    <section class="section work-section" id="work">
+      <div class="section-head reveal">
+        <div><p class="eyebrow">01 / SELECTED PROJECTS</p><h2>Things I've <em>built.</em></h2></div>
+        <p class="section-head__note">A selection of software, apps and team projects — from deployed platforms to robotics.</p>
+      </div>
+      <div class="work-toolbar reveal">
+        <div class="filters" id="chips" role="group" aria-label="Filter projects"></div>
+        <a class="text-link" id="allReposLink" href="https://github.com/montatech" target="_blank" rel="noopener">Explore GitHub <span>↗</span></a>
+      </div>
+      <div class="project-grid" id="grid"></div>
+      <div class="work-foot reveal"><span>MORE IN PROGRESS</span><span class="work-foot__line"></span><span>THE NEXT BUILD IS ALREADY TAKING SHAPE ↗</span></div>
+    </section>
+
+    <section class="skills-section" id="skills">
+      <div class="skills-shell">
+        <div class="section-head section-head--dark reveal">
+          <div><p class="eyebrow">02 / WHAT I BUILD</p><h2>Curiosity,<br><em>put to work.</em></h2></div>
+          <p class="section-head__note">The tools and technical areas I have worked with — and the topics I'm actively learning.</p>
+        </div>
+        <div class="skills-layout">
+          <div class="skills-side reveal"><span class="skills-index">CAPABILITIES / 04</span><div class="skills-orbit" aria-hidden="true"><span class="orbit-core">M</span><i></i><i></i><i></i></div><p>Building across software, connecting ideas to real things people can use.</p></div>
+          <div class="accordion" id="acc"></div>
+        </div>
+        <div class="tool-cloud reveal" id="toolCloud"></div>
+      </div>
+    </section>
+
+    <section class="achievements-section" id="achievements">
+      <div class="achievements-panel">
+        <div class="achievements-glow" aria-hidden="true"></div>
+        <div class="achievements-top reveal"><div><p class="eyebrow">03 / ACHIEVEMENTS</p><h2>Earned through<br><em>teamwork.</em></h2></div><div class="award-total"><strong id="statNumber">03</strong><span id="statLabel">INTERNATIONAL<br>AWARDS</span></div></div>
+        <div class="medals-grid" id="medals"></div>
+        <div class="achievements-bottom reveal"><span>TEAM IRAN · INTERNATIONAL COMPETITIONS</span><span>EFFORT IS A TEAM SPORT <b>✳</b></span></div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="contact-cloud" aria-hidden="true"></div>
+      <div class="contact-inner reveal">
+        <span class="availability availability--contact"><i></i><span id="contactStatus">Aspiring CS / AI Undergraduate</span></span>
+        <p class="eyebrow">HAVE SOMETHING IN MIND?</p>
+        <h2>Let's make<br><em>it happen.</em></h2>
+        <p class="contact-copy">Open to meaningful collaborations, learning opportunities and conversations about technology.</p>
+        <a class="contact-mail magnetic" id="contactEmail" href="mailto:mahdimont67@gmail.com">mahdimont67@gmail.com <span>↗</span></a>
+      </div>
+      <footer class="footer"><a class="footer__brand" href="#top" aria-label="Back to top"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M10 34V14l14 15 14-15v20" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="38" cy="10" r="3" fill="#c8f36c"/></svg></a><span id="footName">MAHDI MONTAZERI NAJAFABADI</span><div class="footer__links" id="footerLinks"></div><span class="footer__copy">© <span id="yr">2026</span> · BUILT WITH INTENTION</span></footer>
+    </section>
+  </main>
+
+  <dialog class="project-dialog" id="projectDialog" aria-labelledby="dialogTitle">
+    <button class="dialog-close" id="dialogClose" aria-label="Close project details">×</button>
+    <div class="dialog-visual" id="dialogVisual"></div>
+    <div class="dialog-body"><p class="eyebrow" id="dialogMeta"></p><h2 id="dialogTitle"></h2><p id="dialogDescription"></p><ul class="dialog-tags" id="dialogTags"></ul><a class="dialog-link" id="dialogLink" href="#" target="_blank" rel="noopener">Open project ↗</a></div>
+  </dialog>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
